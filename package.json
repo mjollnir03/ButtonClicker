@@ -1,0 +1,15 @@
+{
+  "name": "buttonclicker",
+  "version": "1.0.0",
+  "description": "my first electron.js app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ellmaer Ranjber",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^32.1.2"
+  }
+}
