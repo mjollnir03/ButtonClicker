@@ -61,3 +61,14 @@ h1 {
     transform: scale(0.98);
 }
 
+@media (max-width: 768px) {
+    :root {
+        --font-size-title: 2.5rem;
+        --font-size-text: 1.8rem;
+        --font-size-button: 1.4rem;
+    }
+
+    .myContainer {
+        padding: 1rem;
+    }
+}
