@@ -26,3 +26,13 @@ h1 {
     font-size: var(--font-size-title);
     margin: 0;
 }
+
+.myContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
