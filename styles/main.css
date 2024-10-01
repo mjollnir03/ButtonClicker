@@ -1,0 +1,13 @@
+:root {
+    --color-1: #1230AE;
+    --color-2: #6C48C5;
+    --color-3: #C68FE6;
+    --color-4: #FFF7F7;
+    --background-color: var(--color-4);
+    --text-color: var(--color-1);
+    --button-color: var(--color-2);
+    --button-hover-color: var(--color-3);
+    --font-size-title: 4rem;
+    --font-size-text: 3rem;
+    --font-size-button: 2rem;
+}
