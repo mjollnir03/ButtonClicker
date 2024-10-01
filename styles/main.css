@@ -53,3 +53,11 @@ h1 {
     transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
+#myButton:hover {
+    background-color: var(--button-hover-color);
+}
+
+#myButton:active {
+    transform: scale(0.98);
+}
+
