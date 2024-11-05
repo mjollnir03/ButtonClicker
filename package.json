@@ -1,15 +1,38 @@
 {
   "name": "buttonclicker",
   "version": "1.0.0",
-  "description": "my first electron.js app",
+  "description": "A simple button clicking application!",
   "main": "main.js",
+  "build": {
+    "appId": "NONE",
+    "productName": "ButtonClicker",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis", 
+      "icon": "pointer-img.ico"
+    },
+    "nsis": {
+      "oneClick": false,           
+      "perMachine": true,          
+      "allowToChangeInstallationDirectory": true
+    },
+    "buildDependenciesFromSource": true
+  },
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder"
   },
   "author": "Ellmaer Ranjber",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "^32.1.2"
+    "electron": "^32.1.2",
+    "electron-builder": "^25.1.8",
+    "electron-packager": "^17.1.2"
   }
 }
